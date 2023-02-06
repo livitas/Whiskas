@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,900;1,200&display=swap"
+        rel="stylesheet">
+    <title>Sache Whiskas</title>
+</head>
+
+<body>
+    <div class="circulo">
+
+    </div>
+
+    <a href="https://www.whiskas.com.br" target="_blank"> <img src="./images/WhiskasLogo.png" class="logo"> </a>
+
+    <div class="conteudo">
+
+        <div class="caixa-texto">
+            <h2>Não é só um sachê <br>
+                é <span class="whiskas">Whiskas</span></h2>
+            <p id="texto"> Carne mecanicamente separada de atum, carcaça de frango, miúdo de suíno, plasma suíno em pó,
+                farinha de trigo, celulose em pó, água, amido de milho, taurina, vitaminas (D3, E, C, B1, B6, K3,
+                cloreto de colina, niacina, ácido fólico), minerais (cloreto de sódio – sal comum, cloreto de potássio,
+                sulfato de cobre, iodato de cálcio, óxido de zinco, óxido de manganês, óxido de magnésio),
+                tripolifosfato de sódio, xilose, glicina, goma xantana.</p>
+            <a href="https://www.whiskas.com.br" target=_blank><button class="saibamais">Saiba Mais</button></a>
+        </div>
+
+        <div class="caixa-imagem">
+            <img src="./images/atum.png" class="modelo">
+        </div>
+
+    </div>
+
+
+    <div class="menu">
+        <img src="./images/atum.png" class="botao-menu"
+            onclick="trocaImagem('./images/atum.png'); trocaCor('#349cc5'); trocatextoatum()">
+        <img src="./images/carne.png" class="botao-menu"
+            onclick="trocaImagem('./images/carne.png'); trocaCor('#c32a23'); trocatextocarne()">
+        <img src="./images/cordeiro.png" class="botao-menu"
+            onclick="trocaImagem('./images/cordeiro.png'); trocaCor('#37a227'); trocatextocordeiro()">
+        <img src="./images/frango.png" class="botao-menu"
+            onclick="trocaImagem('./images/frango.png'); trocaCor('#ebc003'); trocatextofrango()">
+        <img src="./images/salmao.png" class="botao-menu"
+            onclick="trocaImagem('./images/salmao.png'); trocaCor('#dca6bb'); trocatextosalmao()">
+    </div>
+
+</body>
+<script src="./scripts.js"></script>
+
+</html>
